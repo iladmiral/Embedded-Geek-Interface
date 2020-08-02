@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+    background-color:#00172e;
+    
+}
+
+li, a, .contact
+{
+    color: #f2f0ef;
+    font-family: "Montserrat", sans-serif;
+    font-size: 500;
+    text-decoration: none;
+}
+
+.logo
+{
+    
+}
+.nav_links
+{
+    
+    list-style: none;
+}
+
+.nav_links li
+{
+    
+    display: inline-block;
+    margin: 0 20px;
+    
+}
+
+.nav_links li a
+{
+    transition: all 0.3s ease 0;   
+}
+
+.nav_links li a:hover
+{
+    color: crimson;
+}
+
+.contact
+{
+    background-color: rgba(219, 7, 60, 1);
+    padding: 6px 8px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease 0; 
+}
+
+.contact:hover
+{
+    background-color: rgba(219, 7, 60, 0.8);
+    
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+.bg-essential
+{
+    background-color:#00172e;
+}
+.bg-footer
+{
+    background-color:#022242;
+}
+.contact-us
+{
+    padding: 100px 100px;
+}
+.container-fluid
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-item
+{
+    text-decoration: none;
+    color: #f2f0ef;
+}
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+}
+
+.c-home-hero
+{
+    background-color: #01924a;
+    background-image: radial-gradient(hsla(0, 0%, 100%, .1), rgba(0, 0, 0, .1)), url(/img/ruler.ba134e6b.svg);
+}
+
+.c-home-hero_topic
+{
+    width: 150px;
+}
+
+.c-home-hero_strip
+{
+    background-image: url(/img/border.png);
+    background-position: 50%;
+    background-repeat: repeat-y;
+}
+
+.c-home-hero_strip-border
+{
+    width: auto;
+    border: solid rgba(0, 253, 255, .4);
+    border-width: 1px 0 0;
+}
+
+.link-card
+{
+    background-color: rgba(0, 253, 255, .4);
+}
